@@ -1,0 +1,79 @@
+
+<!DOCTYPE HTML>
+<!--smoking nigga egg since 2010 nice dude yolk :^) shoutout 2 gaygang & other gay sites that im 2 lazy to put here-->
+<html>
+	<head>
+    	<meta charset="utf-16">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="js/title.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/marquee.js"></script>
+        <script src="js/main.js"></script>
+		<link rel="icon" type="image/x-icon" href="https://gaygang.xyz/main/img/favicon.ico"/>
+	</head>
+
+    <body>
+		<div id="center">
+			<div class="animated fadeInDown">
+				<pre style="font-size: 6px">
+   ▀█████████▄     ▄████████ ████████▄     ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄    ▄████████    ▄████████ 
+	███    ███   ███    ███ ███   ▀███   ███    ███     ███    ███ ███    ███   ███ ▄███▀   ███    ███   ███    ███ 
+    ███    ███   ███    ███ ███    ███   ███    ███     ███    ███ ███    █▀    ███▐██▀     ███    █▀    ███    ███  
+	▄███▄▄▄██▀    ███    ███ ███    ███  ▄███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀     ▄███▄▄▄      ▄███▄▄▄▄██▀ 
+	▀▀███▀▀▀██▄  ▀███████████ ███    ███ ▀▀███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ▀▀███▀▀▀     ▀▀███▀▀▀▀▀   
+	███    ██▄   ███    ███ ███    ███   ███    ███     ███    ███ ███    █▄    ███▐██▄     ███    █▄  ▀███████████
+	███    ███   ███    ███ ███   ▄███   ███    ███     ███    ███ ███    ███   ███ ▀███▄   ███    ███   ███    ███ 
+	▄█████████▀    ███    █▀  ████████▀    ███    █▀      ███    █▀  ████████▀    ███   ▀█▀   ██████████   ███    ███ 
+																								                      
+				</pre>
+			</div>
+		<div class="animated fadeIn">
+        <pre>s/o</pre>
+        <pre>/<div id="marquee"></div>/</pre>
+		</div>
+		<div class="animated fadeInUp">
+		<pre><a href="https://discord.gg/3eQ6AE6" target="_blank">Discord</a> &diams; <a href="http://steamcommunity.com/groups/badhackernet" target="_blank">Group</a> &diams; <a
+		div id="clockDisplay" class="clockStyle"></div>
+		
+		<script>
+			function renderTime() {
+			var currentTime = new Date();
+			var diem = "am";
+			var h = currentTime.getHours();
+			var m = currentTime.getMinutes();
+			var s = currentTime.getSeconds();
+			setTimeout('renderTime()',1000);
+			if (h == 0) {
+				h = 12;
+			} else if (h > 12) { 
+				h = h - 12;
+				diem="PM";
+			}
+			if (h < 10) {
+				h = "0" + h;
+			}
+			if (m < 10) {
+				m = "0" + m;
+			}
+			if (s < 10) {
+				s = "0" + s;
+			}
+			var myClock = document.getElementById('clockDisplay');
+			myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+			myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+			}
+			renderTime();
+		</script>
+		
+		<audio autoplay="" hidden="true" id="bg_music" loop="true">
+        <script>
+        var backgroundAudio = document.getElementById("bg_music");
+        backgroundAudio.volume = 1.0;
+        </script> <source src="chz.mp3" type="audio/mpeg"></audio>
+		
+		</div>
+        </div>
+    </body>
+</html>
